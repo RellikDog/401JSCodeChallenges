@@ -57,5 +57,16 @@ describe('test queue', () => {
         expect(testQueue.front.value).toEqual(5);
         expect(testQueue.rear.value).toEqual('the end');
     });
-
+    test('testing dequeue func', () => {
+        expect(testQueue.dequeue()).toEqual(5);
+        expect(testQueue.front.value).toEqual(2013);
+    });
+    test('multiple empties queue', () => {
+        expect(testQueue.dequeue()).toEqual(2013);
+        expect(testQueue.dequeue()).toEqual('the end');
+        expect(testQueue.dequeue()).toEqual('empty queue');
+    });
+    test('peek works', () => {
+        expect(testQueue.peek()).toEqual('empty queue');
+    });
 });

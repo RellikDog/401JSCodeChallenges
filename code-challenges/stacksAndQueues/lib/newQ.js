@@ -16,7 +16,22 @@ class Queue{
             this.rear = newNode;
         }
     }
-
+    dequeue(){
+        let cut = this.front;
+        if(!cut){
+            return 'empty queue';
+        }else{
+            this.front= this.front.next ;
+            return cut.value;
+        }
+    }
+    peek(){
+        if(this.front){
+            return this.front.value;
+        }else{
+            return 'empty queue';
+        }
+    }
 }
 
 module.exports = Queue;
