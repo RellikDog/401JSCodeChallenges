@@ -1,7 +1,5 @@
 'use strict';
 
-const QNode = require('./qNode');
-
 class Queue {
   constructor(){
     this.front = null;
@@ -22,8 +20,9 @@ class Queue {
     if(!cut){
       return 'empty queue';
     }else{
-      this.front= this.front.next ;
-      return cut;
+      this.front = this.front.next ;
+      cut.next = null;
+      return cut.value;
     }
   }
 }

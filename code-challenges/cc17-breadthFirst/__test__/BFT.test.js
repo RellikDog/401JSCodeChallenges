@@ -2,8 +2,6 @@
 
 const Node = require('../lib/newNode');
 const BinaryTree = require('../lib/binaryTree');
-const Queue = require('../lib/newQueue');
-const QNode = require('../lib/qNode');
 
 describe('BFT test', () => {
   let node0 = new Node('a');
@@ -20,5 +18,7 @@ describe('BFT test', () => {
   node1.right = node4;
   node2.left = node5;
   node2.right = node6;
-  expect(testTree0.breadthFirstSearch()).toEqual(['a', 'b', 'c', 'd', 'e', 'f', 'g']);
+  test('happy path works', () => {
+    expect(testTree0.breadthFirstSearch()).toEqual(['a', 'b', 'c', 'd', 'e', 'f', 'g']);
+  });
 });
