@@ -22,6 +22,8 @@ class BinaryTree {
         outputArray.push(bftQ.dequeue());
       }
       return outputArray;
+    }else{
+      return 'tree is empty';
     }
   }
 }

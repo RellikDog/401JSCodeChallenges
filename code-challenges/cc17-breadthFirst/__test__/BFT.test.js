@@ -21,4 +21,8 @@ describe('BFT test', () => {
   test('happy path works', () => {
     expect(testTree0.breadthFirstSearch()).toEqual(['a', 'b', 'c', 'd', 'e', 'f', 'g']);
   });
+  let testTree1 = new BinaryTree();
+  test('edge case: empty tree', () => {
+    expect(testTree1.breadthFirstSearch()).toEqual('tree is empty');
+  });
 });
