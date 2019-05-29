@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1558558313082" clover="3.2.0">
+  <project timestamp="1558558313082" name="All files">
+    <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4" elements="20" coveredelements="20" complexity="0" loc="12" ncloc="12" packages="2" files="3" classes="3"/>
+    <package name="height_of_BT">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="index.js" path="/home/rickbell/code/401/401JSCodeChallenges/code-challenges/height_of_BT/index.js">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="3" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="height_of_BT.lib">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="newBT.js" path="/home/rickbell/code/401/401JSCodeChallenges/code-challenges/height_of_BT/lib/newBT.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="newNode.js" path="/home/rickbell/code/401/401JSCodeChallenges/code-challenges/height_of_BT/lib/newNode.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
