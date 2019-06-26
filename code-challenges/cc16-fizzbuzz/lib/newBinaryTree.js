@@ -3,7 +3,7 @@ class BinaryTree {
   constructor(){
     this.root = null;
   };
-  fizzBuzz = node => {
+  fizzBuzz(node){
     //base
     if(!node){
       return;
@@ -16,8 +16,8 @@ class BinaryTree {
     }else if(node.value % 3 === 0){
       node.value = 'Fizz';
     }
-    fizzBuzz(node.left);
-    fizzBuzz(node.right);
+    this.fizzBuzz(node.left);
+    this.fizzBuzz(node.right);
   }
 }
 module.exports = BinaryTree;
