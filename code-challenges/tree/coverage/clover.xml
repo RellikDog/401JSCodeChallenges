@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1561764434255" clover="3.2.0">
+  <project timestamp="1561764434255" name="All files">
+    <metrics statements="36" coveredstatements="36" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8" elements="52" coveredelements="52" complexity="0" loc="36" ncloc="36" packages="1" files="2" classes="2"/>
+    <file name="newBinaryTree.js" path="/mnt/c/Users/RellikDog/cf/401/401JSCodeChallenges/code-challenges/tree/lib/newBinaryTree.js">
+      <metrics statements="32" coveredstatements="32" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="7"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="21" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="4" type="stmt"/>
+      <line num="25" count="3" type="stmt"/>
+      <line num="26" count="3" type="stmt"/>
+      <line num="27" count="3" type="stmt"/>
+      <line num="28" count="3" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="38" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="39" count="4" type="stmt"/>
+      <line num="42" count="3" type="stmt"/>
+      <line num="43" count="3" type="stmt"/>
+      <line num="44" count="3" type="stmt"/>
+      <line num="45" count="3" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="55" count="7" type="cond" truecount="2" falsecount="0"/>
+      <line num="56" count="4" type="stmt"/>
+      <line num="59" count="3" type="stmt"/>
+      <line num="60" count="3" type="stmt"/>
+      <line num="61" count="3" type="stmt"/>
+      <line num="62" count="3" type="stmt"/>
+      <line num="66" count="1" type="stmt"/>
+    </file>
+    <file name="newNode.js" path="/mnt/c/Users/RellikDog/cf/401/401JSCodeChallenges/code-challenges/tree/lib/newNode.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="5" count="6" type="stmt"/>
+      <line num="6" count="6" type="stmt"/>
+      <line num="7" count="6" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
