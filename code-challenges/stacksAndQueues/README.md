@@ -2,10 +2,12 @@
 Two types of data structures that empty in different ways
 
 ## Challenge
-creat working stack and que classes that function as intended
+create working stack and que classes that function as intended
 
 ## Approach & Efficiency
-The majority of the functions are o(1) as long as they operate onm a refrenced node and don't require us to loop through the structure.
+The majority of the functions are o(1) as long as they operate on a refrenced node and don't require us to loop through the structure.
+
+ my approach is to create stacks and queueues as constructed objects that hold nodes somewhat in the style of a linked list.
 
 ## API
 For a Stack:
