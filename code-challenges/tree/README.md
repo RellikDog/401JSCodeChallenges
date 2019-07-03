@@ -9,3 +9,8 @@ chose to do this recursivly, also chose to employ a helper funtion so the only t
 
 ## API
 
+call binaryTreeName.pre/in/postorder(); to return an array of that trees values in the specified order
+
+BSTs
+create a BST with new BST() accepts either no input or number as root value
+call bstName.insertNode(num); to insert a noide according to BST rules
